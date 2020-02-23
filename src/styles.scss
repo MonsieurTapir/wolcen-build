@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:300,400&display=swap');
+$red: #AF5669;
+$green: #6FA545;
+$blue: #7F5F98;
+$edge-gray :#555555;
+$delim-gray :#A6A6A3;
+
+$text-color: #404040;
+$ui-blue: #2E3D59;
+
+$pst-back :#555555;
+$mid-circle: #EDEDED;
+$inner-circle: #F2F2F2;
+$outer-circle: #F2F2F2;
+
+$white: #F8F8F8;
+
+$ui-main: #2E3D59;
+$ui-highlight: #1de9b6;
+$spell-highlight: #ffff00;
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+}
+.flex-container-row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  flex-direction: row;
+  align-items: flex-start;
+}
+body{
+  margin:0!important;
+}

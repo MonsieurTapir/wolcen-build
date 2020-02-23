@@ -1,0 +1,42 @@
+@import "../../../styles.scss";
+
+.selector{
+  height: 200px;
+  width: 200px;
+}
+
+.outersel{
+  stroke:$ui-main;
+  stroke-width:20;
+  fill:none;
+  &:hover{
+    stroke:$ui-highlight;
+    cursor: pointer;
+  }
+}
+.innersel{
+  fill:$ui-main;
+  &:hover{
+    fill:$ui-highlight;
+    cursor: pointer;
+  }
+}
+
+.innersel.selected{
+  fill:$ui-highlight;
+  &:hover{
+    cursor: default;
+  }
+
+}
+.outersel.selected{
+  stroke:$ui-highlight;
+  &:hover{
+    cursor: default;
+  }
+}
+.delim{
+  stroke:rgba($delim-gray,1.0);
+  stroke-width:1px;
+  fill:none
+}

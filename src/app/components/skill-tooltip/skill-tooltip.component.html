@@ -1,0 +1,19 @@
+<div #tooltip *ngIf="display" class="tooltip-wrapper" [ngStyle]="{'top':posTop+'px', 'left':posLeft+'px'}" [ngClass]="{'red':skill.category==PassiveCategory.PASSIVE_MELEE || skill.category == PassiveCategory.PASSIVE_TANK,
+'blue':skill.category==PassiveCategory.PASSIVE_MAGIC, 'green':skill.category==PassiveCategory.PASSIVE_RANGED}">
+  <div class="tooltip-header">
+    <div class="tooltip-treename">
+      {{treeName}}
+    </div>
+    {{skill.uiName}}
+  </div>
+  <div class="tooltip-content">
+    <div class="tooltip-eim" *ngFor="let eim of skill.eim">
+      <div class="tooltip-eim-desc">
+        {{eim.desc}}
+      </div>
+    </div>
+  </div>
+  <div class="tooltip-footer" *ngIf="skill.lore">
+    {{skill.lore}}
+  </div>
+</div>

@@ -1,0 +1,15 @@
+@import "../../../styles.scss";
+
+.side-panel{
+  width:23vw;
+  height: 96vh;
+  padding: 2vh 1vh 2vh 1vh;
+  color: $white;
+  background-color: $ui-blue;
+  font-family: 'Roboto', ;
+  .title{
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+  }
+}

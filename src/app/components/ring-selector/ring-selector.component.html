@@ -1,0 +1,12 @@
+
+<div #selector class="selector">
+  <svg height="200" width="200" viewBox="-100 -100 200 200">
+    <circle (mousedown)="setSelected(0)"  class="innersel" cx="0" cy="0" r="40" [ngClass]="{'selected': selected==0}"/>
+    <circle (mousedown)="setSelected(1)" class="outersel" cx="0" cy="0" r="50" [ngClass]="{'selected': selected==1}" />
+    <circle (mousedown)="setSelected(2)"  class="outersel" cx="0" cy="0" r="70" [ngClass]="{'selected': selected==2}"/>
+
+    <circle class="delim" cx="0" cy="0" r="60"/>
+    <circle class="delim"cx="0" cy="0" r="40"/>
+    <circle class="delim" cx="0" cy="0" r="80"/>
+  </svg>
+</div>
