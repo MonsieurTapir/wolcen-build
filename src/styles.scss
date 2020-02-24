@@ -1,5 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:300,400&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
 $red: #AF5669;
 $green: #6FA545;
 $blue: #7F5F98;
@@ -24,7 +26,7 @@ $spell-highlight: #ffff00;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-direction: row;
   align-items: center;
 }
@@ -35,5 +37,27 @@ $spell-highlight: #ffff00;
   align-items: flex-start;
 }
 body{
+  position:fixed;
+  left:25vw;
   margin:0!important;
+  background-color: $white;
+}
+
+.side-panel{
+  width:23vw;
+  position:fixed;
+  top:0px;
+  left:0px;
+  height: 100%;
+  padding: 2vh 1vw 2vh 1vw;
+  color: $white;
+  background-color: $ui-blue;
+  font-family: 'Roboto', ;
+  z-index: 100;
+  box-shadow: 0px 0px 5px $pst-back;
+  .title{
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+  }
 }

@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChildren, QueryList, ViewChild, ElementRef, HostListener, AfterViewInit} from '@angular/core';
+import { Component, OnInit, ViewChildren, QueryList, ViewChild, ElementRef, HostListener, AfterViewInit, Output, EventEmitter} from '@angular/core';
 import { SkillTreeService } from 'src/app/services/skill-tree/skill-tree.service';
 import { PassiveTree } from 'src/app/models/skill-tree/passive-tree';
 import { SkillTooltipComponent } from '../skill-tooltip/skill-tooltip.component';
@@ -18,47 +18,52 @@ export class SkillTreeComponent implements OnInit, AfterViewInit {
   tree : PassiveTree = new PassiveTree();
   skills = {};
   highlighted = {};
+  selected = {};
   Math = Math;
   utils = new PSTUtils();
   panzoomConfig: PanZoomConfig;
   ctrlDisabled : boolean = false;
   private panZoomAPI: PanZoomAPI;
   private subscriptions: Subscription[] = [];
-
-  @ViewChildren(SkillTooltipComponent) tooltips: QueryList<SkillTooltipComponent>;
-  state: string = 'default';
-
   radians = [0,0,0];
   lastRadians = [0,0,0];
   searchedTerm : string;
   ringSelected = 0;
+
+  private player: AnimationPlayer;
+  angIncr = [120,60,30];
+  pstPixelsX : number;
+  pstPixelsY : number;
+  pstPixels : number;
+  vMode : number;
+  distUnit : number = 500;
+
+  @Output() hasSelected = new EventEmitter<string>();
+  @Output() hasDeselected = new EventEmitter<string>();
+
   @ViewChild('searchTree') searchBar: ElementRef;
   @ViewChildren('ring') rings: QueryList<ElementRef>;
   @ViewChildren('skill') skillNodes: QueryList<ElementRef>;
   @ViewChild('inner') innerRing: ElementRef;
   @ViewChild('mid') midRing: ElementRef;
   @ViewChild('outer') outerRing: ElementRef;
+  @ViewChildren(SkillTooltipComponent) tooltips: QueryList<SkillTooltipComponent>;
 
 
-  private player: AnimationPlayer;
-  angIncr = [120,60,30];
-  pstPixels : number;
-  pstSize: string;
-  vMode : number;
-  distUnit : number = 300;
+
   @HostListener('window:resize', ['$event'])
   onResize(event?) {
-    this.pstPixels= Math.min( window.innerHeight,window.innerWidth);
-    this.vMode = window.innerHeight>window.innerWidth ? 0.6: 0.9;
-    this.pstSize = window.innerHeight>window.innerWidth ? "70vw":"100vh";
+    this.pstPixelsX= 0.75*window.innerWidth;
+    this.pstPixelsY= window.innerHeight;
+    this.pstPixels = Math.min(this.pstPixelsX,this.pstPixelsY);
     this.panzoomConfig = new PanZoomConfig({
-      scalePerZoomLevel:Math.pow(6*this.distUnit/(this.pstPixels*this.vMode),0.25),
-      freeMouseWheelFactor: 0.001,
+      scalePerZoomLevel:Math.pow(6*this.distUnit/(this.pstPixels*0.8),0.25),
       zoomLevels:5,
       neutralZoomLevel:5,
       initialZoomLevel:1,
-      initialPanX: 0.05*this.pstPixels,
-      initialPanY: 0.05*this.pstPixels
+      initialPanX: (this.pstPixelsX-this.pstPixels*0.8)/2,
+      initialPanY:(this.pstPixelsY-this.pstPixels*0.8)/2,
+      freeMouseWheelFactor: 0.005
     });
     if(this.panZoomAPI) this.panZoomAPI.resetView()
   }
@@ -77,6 +82,7 @@ export class SkillTreeComponent implements OnInit, AfterViewInit {
               subtree.nodes.forEach(skill => {
                 this.skills[skill.name] = skill;
                 this.highlighted[skill.name] = false;
+                this.selected[skill.name] = false;
               });
             });
           });
@@ -86,12 +92,14 @@ export class SkillTreeComponent implements OnInit, AfterViewInit {
     this.subscriptions.push( this.panzoomConfig.api.subscribe( (api: PanZoomAPI) => this.panZoomAPI = api ));
   }
   ngAfterViewInit(): void {
-    var source = fromEvent(this.searchBar.nativeElement, 'keyup');
-    this.subscriptions.push(source.pipe(debounceTime(1200)).subscribe((c) =>
-        {
-            this.highlightNodes(this.searchedTerm);
-        }
-        ));
+    if(this.searchBar){
+      var source = fromEvent(this.searchBar.nativeElement, 'keyup');
+      this.subscriptions.push(source.pipe(debounceTime(1200)).subscribe((c) =>
+          {
+              this.highlightNodes(this.searchedTerm);
+          }
+          ));
+    }
   }
 
   ngOnDestroy(): void {
@@ -182,6 +190,16 @@ export class SkillTreeComponent implements OnInit, AfterViewInit {
   }
   recenterView(){
     this.panZoomAPI.resetView()
+  }
+  selectSkill(sel : string){
+    if(this.selected[sel]){
+      this.hasDeselected.emit(sel);
+      this.selected[sel] = false;
+    }
+    else{
+      this.hasSelected.emit(sel);
+      this.selected[sel] = true;
+    }
   }
   setSelected(sel : number){
     this.ringSelected = sel;

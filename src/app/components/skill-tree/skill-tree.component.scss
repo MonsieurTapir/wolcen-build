@@ -28,25 +28,7 @@ circle{
     fill:darken($inner-circle,10);
   }
 }
-.shape-red{
-  fill:darken($red,0%);
-  &:hover{
-    fill:lighten($red,20%);
-  }
-}
-.shape-blue{
-  fill:darken($blue,0%);
-  &:hover{
-    fill:lighten($blue,20%);
-  }
-}
 
-.shape-green{
-  fill:darken($green,0%);
-  &:hover{
-    fill:lighten($green,20%);
-  }
-}
 
 .tree-edge{
   stroke:$edge-gray;
@@ -67,6 +49,22 @@ circle.highlit{
   &.search-result{
     fill: $spell-highlight;
     stroke-width: 6px;
+  }
+  @each $val, $var in (('red',$red),('blue',$blue),('green',$green)){
+    &.shape-#{$val} {
+      fill:#{$var};
+      &:hover{
+        fill:lighten($var,20%);
+      }
+      &.selected{
+        stroke-width: 6px;
+        fill:lighten($var, 30%);
+        stroke:darken($ui-highlight, 10%);
+        &:hover{
+          fill:lighten($var,20%);
+        }
+      }
+    }
   }
 }
 .pst-rotate-btn{
@@ -90,6 +88,10 @@ circle.highlit{
 
 .pst-commands{
   max-width: 200px;
+  z-index:101;
+  position: absolute;
+  left:5%;
+  top:70%
 }
 
 .pst-commands-btn-row{

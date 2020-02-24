@@ -1,6 +1,5 @@
 
-<div class="flex-container">
-  <div class="pst-wrapper" [ngStyle]="{'height':pstSize, 'width':pstSize}">
+  <div class="pst-wrapper" [ngStyle]="{'height':pstPixelsY+'px', 'width':pstPixelsX+'px'}">
     <pan-zoom [config]="panzoomConfig">
       <svg  [attr.width]="6*distUnit" [attr.height]="6*distUnit" [attr.viewBox]="-3*distUnit+' '+(-3*distUnit)+' '+6*distUnit+' '+6*distUnit" transform="rotate(-90)">
         <defs>
@@ -20,12 +19,15 @@
                 class="highlit" #skill
                 [attr.cx]="utils.getCoordsX(skill, ringnb, i,distUnit)"
                 [attr.cy]="utils.getCoordsY(skill, ringnb, i,distUnit)"
-                [attr.r]="6*skill.rarity"
+                [attr.r]="10*skill.rarity"
                 [ngClass]="{'shape-red': getColor(skill.category)==='red',
                 'shape-blue': getColor(skill.category)==='blue',
                 'shape-green': getColor(skill.category)==='green',
-                'search-result':highlighted[skill.name]}"
-                (mouseover)="showTooltip($event,skill.name)" (mouseleave)="hideTooltip(skill.name)">
+                'search-result':highlighted[skill.name],
+                'selected':selected[skill.name]}"
+                (mouseover)="showTooltip($event,skill.name)"
+                (mouseleave)="hideTooltip(skill.name)"
+                (mouseup)="selectSkill(skill.name)">
               </circle>
             </g>
           </g>
@@ -38,25 +40,27 @@
         <skill-tooltip *ngFor="let skill of subt.nodes" [id]="skill.name" [skill]=skill [treeName]="subt.uiName"></skill-tooltip>
       </div>
     </div>
+
+
+    <div class="pst-commands">
+      <app-ring-selector (hasSelected)="setSelected($event)"></app-ring-selector>
+
+      <div class="pst-commands-btn-row">
+        <button (click)="turn(-1)" class="pst-rotate-btn" [disabled]='ctrlDisabled'>
+          <i class="material-icons">rotate_left</i>
+        </button>
+        <button (click)="recenterView()" class="pst-rotate-btn">
+          <i class="material-icons">center_focus_weak</i>
+        </button>
+        <button (click)="turn(1)"class="pst-rotate-btn" [disabled]='ctrlDisabled'>
+          <i class="material-icons">rotate_right</i>
+        </button>
+      </div>
+      <div class="pst-search">
+          <input type="text" id="search" name="search" #treeSearch [(ngModel)]="searchedTerm" (keyup)="highlightNodes($event.target.value)">
+      </div>
+
+    </div>
+
   </div>
 
-  <div class="pst-commands">
-    <app-ring-selector (hasSelected)="setSelected($event)"></app-ring-selector>
-
-    <div class="pst-commands-btn-row">
-      <button (click)="turn(-1)" class="pst-rotate-btn" [disabled]='ctrlDisabled'>
-        <i class="material-icons">rotate_left</i>
-      </button>
-      <button (click)="recenterView()" class="pst-rotate-btn">
-        <i class="material-icons">center_focus_weak</i>
-      </button>
-      <button (click)="turn(1)"class="pst-rotate-btn" [disabled]='ctrlDisabled'>
-        <i class="material-icons">rotate_right</i>
-      </button>
-    </div>
-    <div class="pst-search">
-        <input type="text" id="search" name="search" #treeSearch [(ngModel)]="searchedTerm" (keyup)="highlightNodes($event.target.value)">
-    </div>
-
-  </div>
-</div>

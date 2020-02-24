@@ -11,13 +11,19 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { RingSelectorComponent } from './components/ring-selector/ring-selector.component';
 import { BuildViewComponent } from './components/build-view/build-view.component'
 import { FormsModule } from '@angular/forms';
+import { EimViewerComponent } from './components/eim-viewer/eim-viewer.component';
+import { EimFormatterPipe } from './pipes/eim-formatter.pipe';
+import { EimListEntryComponent } from './components/eim-viewer/eim-list-entry/eim-list-entry.component';
 @NgModule({
   declarations: [
     AppComponent,
     SkillTreeComponent,
     SkillTooltipComponent,
     RingSelectorComponent,
-    BuildViewComponent
+    BuildViewComponent,
+    EimViewerComponent,
+    EimFormatterPipe,
+    EimListEntryComponent
   ],
   imports: [
     BrowserModule,
