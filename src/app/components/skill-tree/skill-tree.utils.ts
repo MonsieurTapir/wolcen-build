@@ -5,30 +5,30 @@ import { PassiveTreeNode } from 'src/app/models/skill-tree/passive-tree-node';
     getCircleSizeFactor(rarity: number){
       return [1,1.25,1.5][rarity]
     }
-    getSubdivision(i : number, ringNb: number){
+    getSubdivision(i : number, ringNb: number, distUnit: number){
       const ang = 2*Math.PI/(3*Math.pow(2,ringNb));
-      const dist = 500*ringNb;
-      const ret=`M ${Math.cos(i*ang)*dist} ${Math.sin(i*ang)*dist} L ${Math.cos(i*ang)*(500+dist)} ${Math.sin(i*ang)*(500+dist)}`;
+      const dist = distUnit*ringNb;
+      const ret=`M ${Math.cos(i*ang)*dist} ${Math.sin(i*ang)*dist} L ${Math.cos(i*ang)*(distUnit+dist)} ${Math.sin(i*ang)*(distUnit+dist)}`;
       return ret;
     }
-    getCoordsX(s : PassiveTreeNode, ring : number, rot: number){
+    getCoordsX(s : PassiveTreeNode, ring : number, rot: number, distUnit: number){
       const ang = s.angle;
       const pos = s.pos;
-      const x = Math.cos((2*Math.PI/(3*Math.pow(2,ring)))*(rot+ang))*(ring+pos)*500;
+      const x = Math.cos((2*Math.PI/(3*Math.pow(2,ring)))*(rot+ang))*(ring+pos)*distUnit;
       return x;
     }
-    getCoordsY(s : PassiveTreeNode, ring : number, rot: number){
+    getCoordsY(s : PassiveTreeNode, ring : number, rot: number, distUnit: number){
       const ang = s.angle;
       const pos = s.pos;
-      const y = Math.sin((2*Math.PI/(3*Math.pow(2,ring)))*(rot+ang))*(ring+pos)*500;
+      const y = Math.sin((2*Math.PI/(3*Math.pow(2,ring)))*(rot+ang))*(ring+pos)*distUnit;
       return y;
     }
-    getCoordsXFromAngPos(ang: number, pos:number, ring : number, rot: number){
-      const x = Math.cos((2*Math.PI/(3*Math.pow(2,ring)))*(rot+ang))*(ring+pos)*500;
+    getCoordsXFromAngPos(ang: number, pos:number, ring : number, rot: number, distUnit: number){
+      const x = Math.cos((2*Math.PI/(3*Math.pow(2,ring)))*(rot+ang))*(ring+pos)*distUnit;
       return x;
     }
-    getCoordsYFromAngPos(ang: number, pos:number, ring : number, rot: number){
-      const y = Math.sin((2*Math.PI/(3*Math.pow(2,ring)))*(rot+ang))*(ring+pos)*500;
+    getCoordsYFromAngPos(ang: number, pos:number, ring : number, rot: number, distUnit: number){
+      const y = Math.sin((2*Math.PI/(3*Math.pow(2,ring)))*(rot+ang))*(ring+pos)*distUnit;
       return y;
     }
 
@@ -62,7 +62,7 @@ import { PassiveTreeNode } from 'src/app/models/skill-tree/passive-tree-node';
       return {ang:ang,pos:pos}
     }
 
-    getCoords(s : PassiveTreeNode, ring : number, rot: number){
-      return{"x":this.getCoordsX(s,ring,rot), "y":this.getCoordsY(s,ring,rot)}
+    getCoords(s : PassiveTreeNode, ring : number, rot: number, distUnit: number){
+      return{"x":this.getCoordsX(s,ring,rot, distUnit), "y":this.getCoordsY(s,ring,rot, distUnit)}
     }
   }

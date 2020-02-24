@@ -1,20 +1,20 @@
-import { Component, OnInit, ViewChildren, QueryList, ViewChild, ElementRef, HostListener} from '@angular/core';
+import { Component, OnInit, ViewChildren, QueryList, ViewChild, ElementRef, HostListener, AfterViewInit} from '@angular/core';
 import { SkillTreeService } from 'src/app/services/skill-tree/skill-tree.service';
 import { PassiveTree } from 'src/app/models/skill-tree/passive-tree';
 import { SkillTooltipComponent } from '../skill-tooltip/skill-tooltip.component';
 import {  PanZoomConfig, PanZoomAPI } from 'ng2-panzoom';
 import { PassiveCategories } from 'src/app/models/skill-tree/passive-categories.enum';
 import { PassiveTreeNode } from 'src/app/models/skill-tree/passive-tree-node';
-
 import {style, animate,AnimationBuilder, AnimationPlayer} from '@angular/animations';
-import { Subscription } from 'rxjs';
+import { Subscription, fromEvent } from 'rxjs';
+import {debounceTime} from 'rxjs/operators';
 import {PSTUtils} from './skill-tree.utils';
 @Component({
   selector: 'app-skill-tree',
   templateUrl: './skill-tree.component.html',
   styleUrls: ['./skill-tree.component.scss'],
 })
-export class SkillTreeComponent implements OnInit {
+export class SkillTreeComponent implements OnInit, AfterViewInit {
   tree : PassiveTree = new PassiveTree();
   skills = {};
   highlighted = {};
@@ -30,8 +30,9 @@ export class SkillTreeComponent implements OnInit {
 
   radians = [0,0,0];
   lastRadians = [0,0,0];
-
+  searchedTerm : string;
   ringSelected = 0;
+  @ViewChild('searchTree') searchBar: ElementRef;
   @ViewChildren('ring') rings: QueryList<ElementRef>;
   @ViewChildren('skill') skillNodes: QueryList<ElementRef>;
   @ViewChild('inner') innerRing: ElementRef;
@@ -44,13 +45,14 @@ export class SkillTreeComponent implements OnInit {
   pstPixels : number;
   pstSize: string;
   vMode : number;
+  distUnit : number = 300;
   @HostListener('window:resize', ['$event'])
   onResize(event?) {
     this.pstPixels= Math.min( window.innerHeight,window.innerWidth);
     this.vMode = window.innerHeight>window.innerWidth ? 0.6: 0.9;
     this.pstSize = window.innerHeight>window.innerWidth ? "70vw":"100vh";
     this.panzoomConfig = new PanZoomConfig({
-      scalePerZoomLevel:Math.pow(3000.0/(this.pstPixels*this.vMode),0.25),
+      scalePerZoomLevel:Math.pow(6*this.distUnit/(this.pstPixels*this.vMode),0.25),
       freeMouseWheelFactor: 0.001,
       zoomLevels:5,
       neutralZoomLevel:5,
@@ -83,6 +85,14 @@ export class SkillTreeComponent implements OnInit {
     )
     this.subscriptions.push( this.panzoomConfig.api.subscribe( (api: PanZoomAPI) => this.panZoomAPI = api ));
   }
+  ngAfterViewInit(): void {
+    var source = fromEvent(this.searchBar.nativeElement, 'keyup');
+    this.subscriptions.push(source.pipe(debounceTime(1200)).subscribe((c) =>
+        {
+            this.highlightNodes(this.searchedTerm);
+        }
+        ));
+  }
 
   ngOnDestroy(): void {
     this.subscriptions.forEach((sub) => {
@@ -114,15 +124,15 @@ export class SkillTreeComponent implements OnInit {
 
   getPath(A: PassiveTreeNode, B: string, ring : number , rot: number){
     if(this.skills[B]){
-      const coordA = this.utils.getCoords(A,ring,rot);
-      const coordB = this.utils.getCoords(this.skills[B],ring,rot);
+      const coordA = this.utils.getCoords(A,ring,rot, this.distUnit);
+      const coordB = this.utils.getCoords(this.skills[B],ring,rot, this.distUnit);
 
       return `M ${coordA.x} ${coordA.y} L ${coordB.x} ${coordB.y}`
     }else{
-      const coordA = this.utils.getCoords(A,ring,rot);
+      const coordA = this.utils.getCoords(A,ring,rot, this.distUnit);
       const angPosB = this.utils.getAngPosFromLitteral(B,ring==0)
-      const coordB = {x:this.utils.getCoordsXFromAngPos(angPosB.ang, angPosB.pos,ring,rot),
-                      y:this.utils.getCoordsYFromAngPos(angPosB.ang, angPosB.pos,ring,rot)};
+      const coordB = {x:this.utils.getCoordsXFromAngPos(angPosB.ang, angPosB.pos,ring,rot, this.distUnit),
+                      y:this.utils.getCoordsYFromAngPos(angPosB.ang, angPosB.pos,ring,rot, this.distUnit)};
        return `M ${coordA.x} ${coordA.y} L ${coordB.x} ${coordB.y}`
     }
   }
@@ -152,7 +162,7 @@ export class SkillTreeComponent implements OnInit {
       animationFactory = this.animationBuilder
         .build([
           style({ transform: `rotate(${this.lastRadians[this.ringSelected]}deg)` }),
-          animate("1500ms 50ms ease-in-out", style({ transform: `rotate(${this.radians[this.ringSelected]}deg)` }))
+          animate("1200ms 50ms ease-in-out", style({ transform: `rotate(${this.radians[this.ringSelected]}deg)` }))
         ]);
 
     this.player = animationFactory.create(this.rings.toArray()[this.ringSelected].nativeElement);

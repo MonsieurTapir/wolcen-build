@@ -10,6 +10,7 @@ import {Ng2PanZoomModule} from 'ng2-panzoom'
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { RingSelectorComponent } from './components/ring-selector/ring-selector.component';
 import { BuildViewComponent } from './components/build-view/build-view.component'
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +24,8 @@ import { BuildViewComponent } from './components/build-view/build-view.component
     BrowserAnimationsModule,
     AppRoutingModule,
     HttpClientModule,
-    Ng2PanZoomModule
+    Ng2PanZoomModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
