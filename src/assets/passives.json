@@ -11,6 +11,7 @@
           {
             "name": "ResourceFlatFloat",
             "value": 20.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -29,6 +30,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -47,6 +49,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -65,6 +68,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -83,11 +87,13 @@
           {
             "name": "DamagePercentFloat",
             "value": 30.0,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "DurationFloatMaxCombined",
             "value": 5.0,
+            "unit": "",
             "descIndex": 2
           }
         ]
@@ -106,6 +112,7 @@
           {
             "name": "DefenseRegenerationPercentFloat",
             "value": 25.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -124,6 +131,7 @@
           {
             "name": "ResourceFlatInt",
             "value": 200,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -142,6 +150,7 @@
           {
             "name": "ResourceFlatInt",
             "value": 100,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -160,6 +169,7 @@
           {
             "name": "ResourceFlatInt",
             "value": 100,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -178,6 +188,7 @@
           {
             "name": "DefenseRegenerationPercentFloat",
             "value": 17.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -189,6 +200,7 @@
           {
             "name": "DurationPercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -207,6 +219,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 12.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -225,6 +238,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 20.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -243,6 +257,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 12.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -261,6 +276,7 @@
           {
             "name": "SpeedPercentInt",
             "value": 5,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -272,6 +288,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 5,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -283,6 +300,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -301,6 +319,7 @@
           {
             "name": "AttributeFlatInt",
             "value": 25,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -319,6 +338,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 100,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -337,6 +357,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -355,6 +376,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -373,6 +395,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -391,6 +414,7 @@
           {
             "name": "DamagePercentInt",
             "value": 16,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -409,6 +433,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -427,6 +452,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -445,6 +471,7 @@
           {
             "name": "DurationPercentFloat",
             "value": 20.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -463,6 +490,7 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -481,6 +509,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -499,6 +528,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -517,6 +547,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -528,6 +559,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 4.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -546,6 +578,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 2.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -564,6 +597,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 2.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -582,6 +616,7 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -600,6 +635,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -611,6 +647,7 @@
           {
             "name": "DamagePercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -622,6 +659,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -633,6 +671,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -651,6 +690,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -669,6 +709,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -687,6 +728,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -698,6 +740,7 @@
           {
             "name": "SpeedPercentInt",
             "value": -5,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -716,6 +759,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -727,6 +771,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -745,6 +790,7 @@
           {
             "name": "DamagePercentInt",
             "value": 14,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -763,6 +809,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -774,6 +821,7 @@
           {
             "name": "DefenseRegenerationPercentFloat",
             "value": 12.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -792,6 +840,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 30.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -810,6 +859,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -828,6 +878,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -839,6 +890,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": -10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -857,6 +909,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -868,6 +921,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": -10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -886,6 +940,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -897,6 +952,7 @@
           {
             "name": "SpeedPercentInt",
             "value": -5,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -915,6 +971,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -926,6 +983,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -944,6 +1002,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 15.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -962,6 +1021,7 @@
           {
             "name": "DamagePercentInt",
             "value": 14,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -980,6 +1040,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -991,6 +1052,7 @@
           {
             "name": "DefenseRegenerationPercentFloat",
             "value": 12.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1009,11 +1071,13 @@
           {
             "name": "StackCountInt",
             "value": 2,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "RadiusFloat",
             "value": 10.0,
+            "unit": "",
             "descIndex": 2
           }
         ]
@@ -1025,6 +1089,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 15.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1043,6 +1108,7 @@
           {
             "name": "StackCountInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -1061,11 +1127,13 @@
           {
             "name": "PSTStackTickrateFloat",
             "value": 2.0,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "PSTStackMaxCountInt",
             "value": 10,
+            "unit": "",
             "descIndex": 2
           }
         ]
@@ -1077,6 +1145,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 6.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1095,6 +1164,7 @@
           {
             "name": "PSTStackTickrateFloat",
             "value": -0.5,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -1113,6 +1183,7 @@
           {
             "name": "DamagePercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1124,6 +1195,7 @@
           {
             "name": "DamagePercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1135,6 +1207,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1153,6 +1226,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1171,6 +1245,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1189,6 +1264,7 @@
           {
             "name": "DamagePercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1200,6 +1276,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1218,6 +1295,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1236,6 +1314,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 15.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1254,6 +1333,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1272,6 +1352,7 @@
           {
             "name": "HealthPercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1290,6 +1371,7 @@
           {
             "name": "CountInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -1308,6 +1390,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1326,6 +1409,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1344,6 +1428,7 @@
           {
             "name": "DamagePercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1355,6 +1440,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1373,6 +1459,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1391,6 +1478,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1402,6 +1490,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1420,6 +1509,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1438,6 +1528,7 @@
           {
             "name": "HealingPercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1456,11 +1547,13 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "TriggeredSkillSelector",
             "value": 0.0,
+            "unit": "",
             "descIndex": 2
           }
         ]
@@ -1472,6 +1565,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 30,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1490,6 +1584,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 20,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1508,11 +1603,13 @@
           {
             "name": "DamagePercentFloat",
             "value": 25.0,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "ResourcePercentFloat",
             "value": 50.0,
+            "unit": "%",
             "descIndex": 2
           }
         ]
@@ -1531,6 +1628,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1549,6 +1647,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1560,6 +1659,7 @@
           {
             "name": "HealthPercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1578,6 +1678,7 @@
           {
             "name": "DamagePercentInt",
             "value": 25,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1589,6 +1690,7 @@
           {
             "name": "DamagePercentInt",
             "value": -10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1607,6 +1709,7 @@
           {
             "name": "DamagePercentInt",
             "value": 25,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1618,6 +1721,7 @@
           {
             "name": "DamagePercentInt",
             "value": -10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1636,6 +1740,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 20.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1654,6 +1759,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1672,6 +1778,7 @@
           {
             "name": "DamagePercentInt",
             "value": 14,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1683,6 +1790,7 @@
           {
             "name": "HealthPercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1701,6 +1809,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 20,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1712,6 +1821,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": -15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1730,6 +1840,7 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -1741,6 +1852,7 @@
           {
             "name": "MultiplierFloat",
             "value": 0.5,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -1752,6 +1864,7 @@
           {
             "name": "MultiplierFloat",
             "value": 1.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -1763,6 +1876,7 @@
           {
             "name": "MultiplierFloat",
             "value": 2.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -1774,6 +1888,7 @@
           {
             "name": "MultiplierFloat",
             "value": 0.01,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -1792,6 +1907,7 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -1803,6 +1919,7 @@
           {
             "name": "MultiplierFloat",
             "value": 0.5,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -1814,6 +1931,7 @@
           {
             "name": "MultiplierFloat",
             "value": 1.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -1825,6 +1943,7 @@
           {
             "name": "MultiplierFloat",
             "value": 2.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -1836,6 +1955,7 @@
           {
             "name": "MultiplierFloat",
             "value": 0.01,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -1854,6 +1974,7 @@
           {
             "name": "MultiplierFloat",
             "value": 0.5,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -1872,6 +1993,7 @@
           {
             "name": "MultiplierFloat",
             "value": 0.5,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -1890,6 +2012,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 14.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1901,6 +2024,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": -15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1919,6 +2043,7 @@
           {
             "name": "MultiplierFloat",
             "value": 0.5,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -1937,6 +2062,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1955,6 +2081,7 @@
           {
             "name": "DamagePercentInt",
             "value": 14,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1966,6 +2093,7 @@
           {
             "name": "HealthPercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1984,6 +2112,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 20,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -1995,6 +2124,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": -15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2013,16 +2143,19 @@
           {
             "name": "PSTStackGainOnTickInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "PSTStackTickrateFloat",
             "value": 1.5,
+            "unit": "",
             "descIndex": 2
           },
           {
             "name": "PSTStackMaxCountInt",
             "value": 10,
+            "unit": "",
             "descIndex": 3
           }
         ]
@@ -2034,6 +2167,7 @@
           {
             "name": "ChancePercentInt",
             "value": 4,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2052,6 +2186,7 @@
           {
             "name": "ChancePercentInt",
             "value": 1,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2070,11 +2205,13 @@
           {
             "name": "PSTStackTickrateFloat",
             "value": 1.0,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "PSTStackMaxCountInt",
             "value": 10,
+            "unit": "",
             "descIndex": 2
           }
         ]
@@ -2086,6 +2223,7 @@
           {
             "name": "SpeedPercentInt",
             "value": -5,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2097,6 +2235,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 6.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2115,6 +2254,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 0.1,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2126,6 +2266,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2144,6 +2285,7 @@
           {
             "name": "DamagePercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2155,6 +2297,7 @@
           {
             "name": "DamagePercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2166,6 +2309,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2184,6 +2328,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2202,6 +2347,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2220,6 +2366,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2231,6 +2378,7 @@
           {
             "name": "SpeedPercentInt",
             "value": 5,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2249,6 +2397,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2260,6 +2409,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2278,6 +2428,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2296,6 +2447,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2307,6 +2459,7 @@
           {
             "name": "HealthPercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2325,11 +2478,13 @@
           {
             "name": "PSTStackTickrateFloat",
             "value": 2.5,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "PSTStackMaxCountInt",
             "value": 5,
+            "unit": "",
             "descIndex": 2
           }
         ]
@@ -2341,6 +2496,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 15.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2359,6 +2515,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 5.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2377,6 +2534,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2395,6 +2553,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2413,6 +2572,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2424,6 +2584,7 @@
           {
             "name": "SpeedPercentInt",
             "value": 5,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2442,6 +2603,7 @@
           {
             "name": "DamagePercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2453,6 +2615,7 @@
           {
             "name": "DamagePercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2471,6 +2634,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2489,6 +2653,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2507,6 +2672,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2518,6 +2684,7 @@
           {
             "name": "HealthPercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2536,11 +2703,13 @@
           {
             "name": "PSTStackTickrateFloat",
             "value": 2.0,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "PSTStackMaxCountInt",
             "value": 5,
+            "unit": "",
             "descIndex": 2
           }
         ]
@@ -2552,6 +2721,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2563,6 +2733,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2574,6 +2745,7 @@
           {
             "name": "StackCountInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -2592,6 +2764,7 @@
           {
             "name": "StackCountInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -2610,16 +2783,19 @@
           {
             "name": "PSTStackResetTimer",
             "value": 30.0,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "PSTStackMaxCountInt",
             "value": 5,
+            "unit": "",
             "descIndex": 2
           },
           {
             "name": "DamagePercentFloat",
             "value": 15.0,
+            "unit": "%",
             "descIndex": 3
           }
         ]
@@ -2638,6 +2814,7 @@
           {
             "name": "PSTStackResetTimer",
             "value": 50.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -2656,6 +2833,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2667,6 +2845,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2678,6 +2857,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2696,6 +2876,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2714,6 +2895,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2732,6 +2914,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2743,6 +2926,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2761,6 +2945,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2772,6 +2957,7 @@
           {
             "name": "DamagePercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2790,6 +2976,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2808,6 +2995,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2819,6 +3007,7 @@
           {
             "name": "HealthPercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2837,11 +3026,13 @@
           {
             "name": "PSTStackMaxCountInt",
             "value": 6,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "DamagePercentFloat",
             "value": 6.0,
+            "unit": "%",
             "descIndex": 2
           }
         ]
@@ -2860,6 +3051,7 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -2878,6 +3070,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2896,6 +3089,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2914,6 +3108,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2925,6 +3120,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2943,6 +3139,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2954,6 +3151,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2972,6 +3170,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -2983,6 +3182,7 @@
           {
             "name": "HealthPercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3001,6 +3201,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3019,6 +3220,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3030,6 +3232,7 @@
           {
             "name": "HealthPercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3048,6 +3251,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 75,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3066,6 +3270,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 25,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3084,21 +3289,25 @@
           {
             "name": "PSTStackGainPerSecondInt",
             "value": 4,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "PSTStackGainOnEvent",
             "value": 4.0,
+            "unit": "",
             "descIndex": 2
           },
           {
             "name": "PSTStackLossOnEvent",
             "value": 10.0,
+            "unit": "",
             "descIndex": 3
           },
           {
             "name": "PSTStackMaxCountInt",
             "value": 100,
+            "unit": "",
             "descIndex": 4
           }
         ]
@@ -3110,6 +3319,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 200.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3128,6 +3338,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 30.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3146,6 +3357,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3157,6 +3369,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3175,6 +3388,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3186,6 +3400,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3204,6 +3419,7 @@
           {
             "name": "AttributeFlatInt",
             "value": 25,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -3222,6 +3438,7 @@
           {
             "name": "DamagePercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3233,6 +3450,7 @@
           {
             "name": "DamagePercentInt",
             "value": 6,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3251,6 +3469,7 @@
           {
             "name": "DamagePercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3262,6 +3481,7 @@
           {
             "name": "DamagePercentInt",
             "value": 6,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3280,6 +3500,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3298,6 +3519,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3316,6 +3538,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3334,6 +3557,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 60,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3352,6 +3576,7 @@
           {
             "name": "DurationPercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3370,6 +3595,7 @@
           {
             "name": "SpeedPercentInt",
             "value": 6,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3388,6 +3614,7 @@
           {
             "name": "DurationFlatInt",
             "value": 3,
+            "unit": "s",
             "descIndex": 1
           }
         ]
@@ -3406,6 +3633,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3424,6 +3652,7 @@
           {
             "name": "ResourceFlatFloat",
             "value": 25.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -3442,6 +3671,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3460,6 +3690,7 @@
           {
             "name": "HealthPercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3471,6 +3702,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 4.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3482,6 +3714,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 4.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3500,6 +3733,7 @@
           {
             "name": "HealthPercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3511,6 +3745,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 4.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3522,6 +3757,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 4.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3540,6 +3776,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3551,6 +3788,7 @@
           {
             "name": "HealthPercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3569,6 +3807,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3580,6 +3819,7 @@
           {
             "name": "ResourcePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3598,6 +3838,7 @@
           {
             "name": "HealthPercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3609,6 +3850,7 @@
           {
             "name": "ResourcePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3627,6 +3869,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3638,6 +3881,7 @@
           {
             "name": "ResourcePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3656,6 +3900,7 @@
           {
             "name": "ResourcePercentInt",
             "value": 1000,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3674,6 +3919,7 @@
           {
             "name": "AttributeFlatInt",
             "value": 25,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -3692,6 +3938,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3703,6 +3950,7 @@
           {
             "name": "HealthPercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3721,6 +3969,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3732,6 +3981,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3750,6 +4000,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3768,6 +4019,7 @@
           {
             "name": "DurationPercentInt",
             "value": 50,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3786,6 +4038,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 15.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3804,6 +4057,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 50.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3822,6 +4076,7 @@
           {
             "name": "HealthFlatInt",
             "value": 100,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -3833,6 +4088,7 @@
           {
             "name": "HealthPercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3851,6 +4107,7 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -3869,6 +4126,7 @@
           {
             "name": "ResourceFlatInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -3887,6 +4145,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 15.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3905,6 +4164,7 @@
           {
             "name": "HealthPercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3916,6 +4176,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3934,6 +4195,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3952,6 +4214,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 25,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3970,6 +4233,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3988,6 +4252,7 @@
           {
             "name": "SpeedPercentInt",
             "value": 5,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -3999,6 +4264,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 5,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4010,6 +4276,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4028,6 +4295,7 @@
           {
             "name": "AttributeFlatInt",
             "value": 25,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -4046,11 +4314,13 @@
           {
             "name": "DamagePercentFloat",
             "value": 25.0,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "RadiusFloat",
             "value": 7.0,
+            "unit": "",
             "descIndex": 2
           }
         ]
@@ -4069,11 +4339,13 @@
           {
             "name": "DamagePercentFloat",
             "value": 5.0,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "RadiusFloat",
             "value": 0.0,
+            "unit": "",
             "descIndex": 2
           }
         ]
@@ -4092,11 +4364,13 @@
           {
             "name": "DamagePercentFloat",
             "value": 0.0,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "RadiusFloat",
             "value": -3.0,
+            "unit": "",
             "descIndex": 2
           }
         ]
@@ -4115,6 +4389,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4133,6 +4408,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4151,6 +4427,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4169,6 +4446,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4187,6 +4465,7 @@
           {
             "name": "ArmorFlatInt",
             "value": 100,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -4198,6 +4477,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4216,6 +4496,7 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -4234,6 +4515,7 @@
           {
             "name": "DurationPercentFloat",
             "value": 20.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4252,6 +4534,7 @@
           {
             "name": "RadiusFloat",
             "value": 2.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -4270,6 +4553,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4281,6 +4565,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4299,6 +4584,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4317,6 +4603,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4335,6 +4622,7 @@
           {
             "name": "DamagePercentInt",
             "value": 100,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4346,6 +4634,7 @@
           {
             "name": "DamagePercentInt",
             "value": -30,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4364,6 +4653,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4375,6 +4665,7 @@
           {
             "name": "CharacteristicScoreInt",
             "value": 10,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -4386,6 +4677,7 @@
           {
             "name": "DefenseRegenerationPercentFloat",
             "value": 12.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4404,6 +4696,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4422,6 +4715,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4440,6 +4734,7 @@
           {
             "name": "CharacteristicScoreInt",
             "value": 10,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -4451,6 +4746,7 @@
           {
             "name": "ResourcePercentInt",
             "value": -17,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4469,6 +4765,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4487,6 +4784,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 12.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4505,6 +4803,7 @@
           {
             "name": "DurationPercentFloat",
             "value": 14.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4516,6 +4815,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4534,6 +4834,7 @@
           {
             "name": "DamageIncreasePercentFloat",
             "value": 5.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4552,6 +4853,7 @@
           {
             "name": "DamageIncreasePercentFloat",
             "value": 2.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4570,6 +4872,7 @@
           {
             "name": "CharacteristicScoreInt",
             "value": 25,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -4588,6 +4891,7 @@
           {
             "name": "CharacteristicScoreInt",
             "value": 25,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -4606,6 +4910,7 @@
           {
             "name": "CharacteristicScoreInt",
             "value": 10,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -4617,6 +4922,7 @@
           {
             "name": "ResourcePercentInt",
             "value": -17,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4635,6 +4941,7 @@
           {
             "name": "CharacteristicScoreInt",
             "value": 25,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -4653,6 +4960,7 @@
           {
             "name": "DurationPercentFloat",
             "value": 14.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4664,6 +4972,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4682,6 +4991,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 12.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4700,6 +5010,7 @@
           {
             "name": "DurationPercentFloat",
             "value": 14.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4711,6 +5022,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4729,6 +5041,7 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -4740,6 +5053,7 @@
           {
             "name": "StackCountInt",
             "value": 10,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -4751,6 +5065,7 @@
           {
             "name": "SpeedPercentInt",
             "value": 25,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4762,6 +5077,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 30,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4773,6 +5089,7 @@
           {
             "name": "DamagePercentInt",
             "value": 30,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4784,6 +5101,7 @@
           {
             "name": "TriggerGainHealthPercentFloat",
             "value": 30.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4802,11 +5120,13 @@
           {
             "name": "StackCountInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "ChanceFlatFloat",
             "value": 30.0,
+            "unit": "",
             "descIndex": 2
           }
         ]
@@ -4825,6 +5145,7 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -4836,6 +5157,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 5.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4854,6 +5176,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 15.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4872,6 +5195,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4883,6 +5207,7 @@
           {
             "name": "HealthPercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4901,6 +5226,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4919,6 +5245,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4937,6 +5264,7 @@
           {
             "name": "CharacteristicScoreInt",
             "value": 20,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -4948,6 +5276,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": -15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4966,6 +5295,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -4977,6 +5307,7 @@
           {
             "name": "ResourceFlatFloat",
             "value": 10.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -4995,6 +5326,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5013,6 +5345,7 @@
           {
             "name": "ChanceFlatFloat",
             "value": 10.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -5031,6 +5364,7 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -5049,11 +5383,13 @@
           {
             "name": "ResourceFlatFloat",
             "value": 750.0,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "ResourcePercentFloat",
             "value": 100.0,
+            "unit": "%",
             "descIndex": 2
           }
         ]
@@ -5072,6 +5408,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5090,6 +5427,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5108,6 +5446,7 @@
           {
             "name": "CharacteristicScoreInt",
             "value": 20,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -5119,6 +5458,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": -15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5137,6 +5477,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5148,6 +5489,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5166,6 +5508,7 @@
           {
             "name": "HealthPercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5177,6 +5520,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": -10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5195,6 +5539,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5213,6 +5558,7 @@
           {
             "name": "HealthPercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5224,6 +5570,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": -10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5242,26 +5589,31 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "TriggeredSkillSelector",
             "value": 0.0,
+            "unit": "",
             "descIndex": 2
           },
           {
             "name": "StackCountInt",
             "value": 5,
+            "unit": "",
             "descIndex": 3
           },
           {
             "name": "ChancePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 4
           },
           {
             "name": "DamagePercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 5
           }
         ]
@@ -5280,16 +5632,19 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "TriggeredSkillSelector",
             "value": 0.0,
+            "unit": "",
             "descIndex": 2
           },
           {
             "name": "StackCountInt",
             "value": 5,
+            "unit": "",
             "descIndex": 3
           }
         ]
@@ -5308,11 +5663,13 @@
           {
             "name": "PSTStackMaxCountInt",
             "value": 50,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "PSTStackResetTimer",
             "value": 3.0,
+            "unit": "",
             "descIndex": 2
           }
         ]
@@ -5324,6 +5681,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 3,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5335,6 +5693,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 0.2,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5346,6 +5705,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": -1,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5364,6 +5724,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 1,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5375,6 +5736,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 0.1,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5393,6 +5755,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5404,6 +5767,7 @@
           {
             "name": "HealthPercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5415,6 +5779,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5433,6 +5798,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 15.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5451,6 +5817,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 15.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5469,6 +5836,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5487,6 +5855,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5498,6 +5867,7 @@
           {
             "name": "HealthPercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5516,6 +5886,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5534,6 +5905,7 @@
           {
             "name": "HealthPercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5552,21 +5924,25 @@
           {
             "name": "RadiusFloat",
             "value": 20.0,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "ChancePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 2
           },
           {
             "name": "DamagePercentFloat",
             "value": 30.0,
+            "unit": "%",
             "descIndex": 3
           },
           {
             "name": "DurationFlatFloat",
             "value": 5.0,
+            "unit": "s",
             "descIndex": 4
           }
         ]
@@ -5585,21 +5961,25 @@
           {
             "name": "RadiusFloat",
             "value": 20.0,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "ChancePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 2
           },
           {
             "name": "DamagePercentFloat",
             "value": 30.0,
+            "unit": "%",
             "descIndex": 3
           },
           {
             "name": "DurationFlatFloat",
             "value": 10.0,
+            "unit": "s",
             "descIndex": 4
           }
         ]
@@ -5618,6 +5998,7 @@
           {
             "name": "CharacteristicFinalPercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5636,6 +6017,7 @@
           {
             "name": "CharacteristicFinalPercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5654,6 +6036,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5672,6 +6055,7 @@
           {
             "name": "CharacteristicFinalPercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5683,6 +6067,7 @@
           {
             "name": "HealthPercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5701,6 +6086,7 @@
           {
             "name": "HealthPercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5719,6 +6105,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5737,6 +6124,7 @@
           {
             "name": "HealthPercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5755,16 +6143,19 @@
           {
             "name": "DurationFlatFloat",
             "value": 2.0,
+            "unit": "s",
             "descIndex": 1
           },
           {
             "name": "RadiusFloat",
             "value": 7.0,
+            "unit": "",
             "descIndex": 2
           },
           {
             "name": "StacksIntMaxCombined",
             "value": 1.0,
+            "unit": "",
             "descIndex": 3
           }
         ]
@@ -5783,11 +6174,13 @@
           {
             "name": "DurationFlatFloat",
             "value": 2.0,
+            "unit": "s",
             "descIndex": 1
           },
           {
             "name": "SpeedPercentInt",
             "value": 20,
+            "unit": "%",
             "descIndex": 2
           }
         ]
@@ -5806,16 +6199,19 @@
           {
             "name": "HealthPercentInt",
             "value": 20,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "ArmorPercentFloat",
             "value": 20.0,
+            "unit": "%",
             "descIndex": 2
           },
           {
             "name": "DamagePercentFloat",
             "value": 25.0,
+            "unit": "%",
             "descIndex": 3
           }
         ]
@@ -5834,16 +6230,19 @@
           {
             "name": "HealthPercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "ArmorPercentFloat",
             "value": 5.0,
+            "unit": "%",
             "descIndex": 2
           },
           {
             "name": "DamagePercentFloat",
             "value": 20.0,
+            "unit": "%",
             "descIndex": 3
           }
         ]
@@ -5862,16 +6261,19 @@
           {
             "name": "HealthPercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "ArmorPercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 2
           },
           {
             "name": "DamagePercentFloat",
             "value": 20.0,
+            "unit": "%",
             "descIndex": 3
           }
         ]
@@ -5890,16 +6292,19 @@
           {
             "name": "HealthPercentInt",
             "value": 5,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "ArmorPercentFloat",
             "value": 15.0,
+            "unit": "%",
             "descIndex": 2
           },
           {
             "name": "DamagePercentFloat",
             "value": 20.0,
+            "unit": "%",
             "descIndex": 3
           }
         ]
@@ -5918,6 +6323,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5929,6 +6335,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5947,6 +6354,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5958,6 +6366,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -5976,6 +6385,7 @@
           {
             "name": "AttributeFlatInt",
             "value": 25,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -5994,6 +6404,7 @@
           {
             "name": "DamagePercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6005,6 +6416,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6023,6 +6435,7 @@
           {
             "name": "DamagePercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6034,6 +6447,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6052,6 +6466,7 @@
           {
             "name": "SpeedPercentInt",
             "value": 6,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6070,6 +6485,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6088,6 +6504,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6106,6 +6523,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 50,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6117,6 +6535,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 50,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6135,6 +6554,7 @@
           {
             "name": "DurationPercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6153,6 +6573,7 @@
           {
             "name": "ResourceFlatInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -6171,6 +6592,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 15.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6189,6 +6611,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 20.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6207,6 +6630,7 @@
           {
             "name": "TriggerGainStaminaFloat",
             "value": 3.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -6225,6 +6649,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 4.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6243,6 +6668,7 @@
           {
             "name": "HealthPercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6254,6 +6680,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6272,6 +6699,7 @@
           {
             "name": "HealthPercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6283,6 +6711,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6301,6 +6730,7 @@
           {
             "name": "HealthPercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6312,6 +6742,7 @@
           {
             "name": "ResourcePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6330,6 +6761,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6341,6 +6773,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6359,6 +6792,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6370,6 +6804,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6388,6 +6823,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6399,6 +6835,7 @@
           {
             "name": "HealthPercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6417,6 +6854,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 100,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6435,6 +6873,7 @@
           {
             "name": "AttributeFlatInt",
             "value": 25,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -6453,6 +6892,7 @@
           {
             "name": "HealthPercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6464,6 +6904,7 @@
           {
             "name": "ResourcePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6482,6 +6923,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6493,6 +6935,7 @@
           {
             "name": "DamagePercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6511,6 +6954,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6529,6 +6973,7 @@
           {
             "name": "StackCountInt",
             "value": 5,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -6547,6 +6992,7 @@
           {
             "name": "StackCountInt",
             "value": 5,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -6565,6 +7011,7 @@
           {
             "name": "StackCountInt",
             "value": 2,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -6576,6 +7023,7 @@
           {
             "name": "DamagePercentFloat",
             "value": -30.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6594,6 +7042,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6612,6 +7061,7 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -6630,6 +7080,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6648,6 +7099,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6666,6 +7118,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6677,6 +7130,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6695,6 +7149,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 12.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6713,6 +7168,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 20.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6731,6 +7187,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 12.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6749,6 +7206,7 @@
           {
             "name": "SpeedPercentInt",
             "value": 5,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6760,6 +7218,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6771,6 +7230,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6789,6 +7249,7 @@
           {
             "name": "AttributeFlatInt",
             "value": 25,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -6807,6 +7268,7 @@
           {
             "name": "CountInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -6825,6 +7287,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 50.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6836,6 +7299,7 @@
           {
             "name": "DamagePercentFloat",
             "value": -15.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6854,6 +7318,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6872,6 +7337,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 50.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6883,6 +7349,7 @@
           {
             "name": "DamagePercentFloat",
             "value": -15.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6901,6 +7368,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 12.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6919,6 +7387,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 30.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6930,6 +7399,7 @@
           {
             "name": "DamagePercentFloat",
             "value": -10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6948,6 +7418,7 @@
           {
             "name": "DurationPercentInt",
             "value": 50,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6966,6 +7437,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -6984,11 +7456,13 @@
           {
             "name": "ChancePercentInt",
             "value": 50,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "MultiplierFloat",
             "value": 2.0,
+            "unit": "",
             "descIndex": 2
           }
         ]
@@ -7007,11 +7481,13 @@
           {
             "name": "ChancePercentInt",
             "value": 25,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "MultiplierFloat",
             "value": 0.0,
+            "unit": "",
             "descIndex": 2
           }
         ]
@@ -7030,11 +7506,13 @@
           {
             "name": "ChancePercentInt",
             "value": 25,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "MultiplierFloat",
             "value": 0.0,
+            "unit": "",
             "descIndex": 2
           }
         ]
@@ -7053,6 +7531,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7064,6 +7543,7 @@
           {
             "name": "DurationPercentInt",
             "value": 75,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7082,6 +7562,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7100,6 +7581,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7118,16 +7600,19 @@
           {
             "name": "DamagePercentFloat",
             "value": 5.0,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "StacksIntMaxCombined",
             "value": 5.0,
+            "unit": "",
             "descIndex": 2
           },
           {
             "name": "DurationFloatMaxCombined",
             "value": 15.0,
+            "unit": "",
             "descIndex": 3
           }
         ]
@@ -7146,6 +7631,7 @@
           {
             "name": "DamagePercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7157,6 +7643,7 @@
           {
             "name": "DamagePercentInt",
             "value": 6,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7175,6 +7662,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7193,6 +7681,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 30.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7204,6 +7693,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 30.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7215,6 +7705,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 30.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7233,6 +7724,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 30.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7244,6 +7736,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 30.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7255,6 +7748,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 30.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7273,6 +7767,7 @@
           {
             "name": "DamagePercentInt",
             "value": 50,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7284,6 +7779,7 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -7302,6 +7798,7 @@
           {
             "name": "HealthFlatInt",
             "value": 100,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -7313,6 +7810,7 @@
           {
             "name": "HealthPercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7331,16 +7829,19 @@
           {
             "name": "DamagePercentFloat_Max",
             "value": 25.0,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "DamagePercentFloat",
             "value": 4.0,
+            "unit": "%",
             "descIndex": 2
           },
           {
             "name": "RadiusFloat",
             "value": 4.0,
+            "unit": "",
             "descIndex": 3
           }
         ]
@@ -7359,16 +7860,19 @@
           {
             "name": "DamagePercentFloat_Max",
             "value": 5.0,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "DamagePercentFloat",
             "value": 1.0,
+            "unit": "%",
             "descIndex": 2
           },
           {
             "name": "RadiusFloat",
             "value": 0.0,
+            "unit": "",
             "descIndex": 3
           }
         ]
@@ -7387,16 +7891,19 @@
           {
             "name": "DamagePercentFloat_Max",
             "value": 0.0,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "DamagePercentFloat",
             "value": 0.0,
+            "unit": "%",
             "descIndex": 2
           },
           {
             "name": "RadiusFloat",
             "value": 2.0,
+            "unit": "",
             "descIndex": 3
           }
         ]
@@ -7415,6 +7922,7 @@
           {
             "name": "HealthPercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7426,6 +7934,7 @@
           {
             "name": "ResourcePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7444,6 +7953,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7462,6 +7972,7 @@
           {
             "name": "DamagePercentInt",
             "value": 16,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7480,6 +7991,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7498,6 +8010,7 @@
           {
             "name": "SpeedPercentInt",
             "value": 5,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7509,6 +8022,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 5,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7520,6 +8034,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7538,6 +8053,7 @@
           {
             "name": "AttributeFlatInt",
             "value": 25,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -7556,6 +8072,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 2.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7574,6 +8091,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 2.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7592,6 +8110,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 2.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7610,6 +8129,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7628,6 +8148,7 @@
           {
             "name": "DamagePercentInt",
             "value": 16,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7646,6 +8167,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7664,6 +8186,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7682,6 +8205,7 @@
           {
             "name": "CharacteristicScoreInt",
             "value": 5,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -7693,6 +8217,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7711,6 +8236,7 @@
           {
             "name": "ConversionRateFloat",
             "value": 2.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -7729,6 +8255,7 @@
           {
             "name": "ResourceFlatFloat",
             "value": 35.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -7747,6 +8274,7 @@
           {
             "name": "ResourcePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7765,6 +8293,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7776,6 +8305,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7794,6 +8324,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 4.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7812,6 +8343,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7830,6 +8362,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 50.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7848,6 +8381,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7859,6 +8393,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7877,6 +8412,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7895,6 +8431,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7913,6 +8450,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7931,6 +8469,7 @@
           {
             "name": "RadiusFloat",
             "value": 6.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -7949,6 +8488,7 @@
           {
             "name": "HealthFlatInt",
             "value": 100,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -7960,6 +8500,7 @@
           {
             "name": "HealthPercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7978,6 +8519,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 25.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -7996,6 +8538,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 25,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8014,6 +8557,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 20,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8025,6 +8569,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 20,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8043,6 +8588,7 @@
           {
             "name": "HealthPercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8054,6 +8600,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8072,6 +8619,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8090,6 +8638,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 25,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8108,6 +8657,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8126,6 +8676,7 @@
           {
             "name": "SpeedPercentInt",
             "value": 5,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8137,6 +8688,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 5,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8148,6 +8700,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8166,6 +8719,7 @@
           {
             "name": "AttributeFlatInt",
             "value": 25,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -8184,6 +8738,7 @@
           {
             "name": "ProjectileCountInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -8195,6 +8750,7 @@
           {
             "name": "DamagePercentInt",
             "value": -50,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8213,6 +8769,7 @@
           {
             "name": "DamagePercentInt",
             "value": 25,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8231,6 +8788,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8249,6 +8807,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8267,6 +8826,7 @@
           {
             "name": "DamagePercentInt",
             "value": 16,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8285,6 +8845,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8303,6 +8864,7 @@
           {
             "name": "CountInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -8321,6 +8883,7 @@
           {
             "name": "ArmorFlatInt",
             "value": 100,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -8332,6 +8895,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8350,11 +8914,13 @@
           {
             "name": "DamagePercentFloat",
             "value": 25.0,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "RadiusFloat",
             "value": 6.0,
+            "unit": "",
             "descIndex": 2
           }
         ]
@@ -8373,11 +8939,13 @@
           {
             "name": "DamagePercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "RadiusFloat",
             "value": 0.0,
+            "unit": "",
             "descIndex": 2
           }
         ]
@@ -8396,11 +8964,13 @@
           {
             "name": "DamagePercentFloat",
             "value": 0.0,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "RadiusFloat",
             "value": -2.0,
+            "unit": "",
             "descIndex": 2
           }
         ]
@@ -8419,6 +8989,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 20,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8437,6 +9008,7 @@
           {
             "name": "SpeedPercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8455,6 +9027,7 @@
           {
             "name": "SpeedPercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8473,16 +9046,19 @@
           {
             "name": "DamagePercentFloat",
             "value": 175.0,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "RangeFloat_Min",
             "value": 8.0,
+            "unit": "",
             "descIndex": 2
           },
           {
             "name": "RangeFloat_Max",
             "value": 15.0,
+            "unit": "",
             "descIndex": 3
           }
         ]
@@ -8501,6 +9077,7 @@
           {
             "name": "DamagePercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8512,6 +9089,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8523,6 +9101,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8541,6 +9120,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8559,6 +9139,7 @@
           {
             "name": "DamagePercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8570,6 +9151,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8588,6 +9170,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 14.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8599,6 +9182,7 @@
           {
             "name": "HealthPercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8617,6 +9201,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8635,6 +9220,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8653,6 +9239,7 @@
           {
             "name": "ChanceFlatFloat",
             "value": 10.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -8671,6 +9258,7 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -8682,11 +9270,13 @@
           {
             "name": "ChancePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "CharacteristicScorePercentInt",
             "value": 25,
+            "unit": "%",
             "descIndex": 2
           }
         ]
@@ -8698,16 +9288,19 @@
           {
             "name": "ChancePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "ResourcePercentFloat",
             "value": 25.0,
+            "unit": "%",
             "descIndex": 2
           },
           {
             "name": "CharacteristicScorePercentInt",
             "value": 25,
+            "unit": "%",
             "descIndex": 3
           }
         ]
@@ -8726,11 +9319,13 @@
           {
             "name": "ChancePercentInt",
             "value": 5,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "CharacteristicScorePercentInt",
             "value": 0,
+            "unit": "%",
             "descIndex": 2
           }
         ]
@@ -8742,16 +9337,19 @@
           {
             "name": "ChancePercentInt",
             "value": 5,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "ResourcePercentFloat",
             "value": 0.0,
+            "unit": "%",
             "descIndex": 2
           },
           {
             "name": "CharacteristicScorePercentInt",
             "value": 0,
+            "unit": "%",
             "descIndex": 3
           }
         ]
@@ -8770,6 +9368,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8788,6 +9387,7 @@
           {
             "name": "DamagePercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8799,6 +9399,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8817,6 +9418,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 14.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8828,6 +9430,7 @@
           {
             "name": "HealthPercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8846,6 +9449,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8864,6 +9468,7 @@
           {
             "name": "ChanceFlatFloat",
             "value": 6.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -8882,6 +9487,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8900,6 +9506,7 @@
           {
             "name": "ChanceFlatFloat",
             "value": 10.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -8918,16 +9525,19 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "DamagePercentFloat",
             "value": 100.0,
+            "unit": "%",
             "descIndex": 2
           },
           {
             "name": "TriggeredSkillSelector",
             "value": 0.0,
+            "unit": "",
             "descIndex": 3
           }
         ]
@@ -8946,6 +9556,7 @@
           {
             "name": "TriggeredSkillSelector",
             "value": 1.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -8964,6 +9575,7 @@
           {
             "name": "DamageIncreasePercentFloat",
             "value": 0.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -8975,6 +9587,7 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -8986,6 +9599,7 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -8997,6 +9611,7 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -9008,6 +9623,7 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -9026,6 +9642,7 @@
           {
             "name": "DamageIncreasePercentFloat",
             "value": 50.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9044,6 +9661,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9055,6 +9673,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9066,6 +9685,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9077,6 +9697,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9095,6 +9716,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9113,6 +9735,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9131,6 +9754,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9142,6 +9766,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9160,6 +9785,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9178,6 +9804,7 @@
           {
             "name": "StackCountInt",
             "value": 5,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -9196,6 +9823,7 @@
           {
             "name": "DurationPercentFloat",
             "value": 14.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9207,6 +9835,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9225,11 +9854,13 @@
           {
             "name": "DurationFlatFloat",
             "value": 1.5,
+            "unit": "s",
             "descIndex": 1
           },
           {
             "name": "DamagePercentFloat",
             "value": 100.0,
+            "unit": "%",
             "descIndex": 2
           }
         ]
@@ -9248,6 +9879,7 @@
           {
             "name": "DamageIncreasePercentFloat",
             "value": 20.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9266,6 +9898,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9284,6 +9917,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9302,6 +9936,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9313,6 +9948,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9331,6 +9967,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9342,6 +9979,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9353,6 +9991,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9371,6 +10010,7 @@
           {
             "name": "DurationPercentFloat",
             "value": 20.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9389,6 +10029,7 @@
           {
             "name": "StackCountInt",
             "value": 5,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -9407,6 +10048,7 @@
           {
             "name": "DurationPercentFloat",
             "value": 14.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9418,6 +10060,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9436,11 +10079,13 @@
           {
             "name": "PSTStackResetTimer",
             "value": 5.0,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "PSTStackMaxCountInt",
             "value": 5,
+            "unit": "",
             "descIndex": 2
           }
         ]
@@ -9452,6 +10097,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9463,6 +10109,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9481,6 +10128,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 5,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9492,6 +10140,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 5,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9510,11 +10159,13 @@
           {
             "name": "DurationFlatFloat",
             "value": 1.0,
+            "unit": "s",
             "descIndex": 1
           },
           {
             "name": "DamagePercentFloat",
             "value": 40.0,
+            "unit": "%",
             "descIndex": 2
           }
         ]
@@ -9526,11 +10177,13 @@
           {
             "name": "HealthPercentInt",
             "value": 85,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "ArmorPercentFloat",
             "value": 85.0,
+            "unit": "%",
             "descIndex": 2
           }
         ]
@@ -9549,11 +10202,13 @@
           {
             "name": "HealthPercentInt",
             "value": 5,
+            "unit": "%",
             "descIndex": 1
           },
           {
             "name": "ArmorPercentFloat",
             "value": 5.0,
+            "unit": "%",
             "descIndex": 2
           }
         ]
@@ -9572,6 +10227,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9583,6 +10239,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9594,6 +10251,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9612,6 +10270,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9630,6 +10289,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9648,6 +10308,7 @@
           {
             "name": "ResourceFlatInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -9666,6 +10327,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9677,6 +10339,7 @@
           {
             "name": "ResourceFlatInt",
             "value": 100,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -9695,6 +10358,7 @@
           {
             "name": "DamagePercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9706,6 +10370,7 @@
           {
             "name": "DamagePercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9724,6 +10389,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9735,6 +10401,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 5.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9746,6 +10413,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 5.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9764,11 +10432,13 @@
           {
             "name": "RangeFloat_Min",
             "value": 1.5,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "DurationFlatFloat",
             "value": 3.0,
+            "unit": "s",
             "descIndex": 2
           }
         ]
@@ -9787,11 +10457,13 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "RangeFloat_Max",
             "value": 2.0,
+            "unit": "",
             "descIndex": 2
           }
         ]
@@ -9810,6 +10482,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9821,6 +10494,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9839,6 +10513,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9850,6 +10525,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9868,6 +10544,7 @@
           {
             "name": "ResourceFlatInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -9886,6 +10563,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9897,6 +10575,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9908,6 +10587,7 @@
           {
             "name": "DurationPercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9926,6 +10606,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9944,6 +10625,7 @@
           {
             "name": "DamagePercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9955,6 +10637,7 @@
           {
             "name": "DamagePercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9973,6 +10656,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9984,6 +10668,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 5.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -9995,6 +10680,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 5.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10013,6 +10699,7 @@
           {
             "name": "PSTStackMaxCountInt",
             "value": 10,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -10024,6 +10711,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 50.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10035,6 +10723,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 20.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10053,6 +10742,7 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -10071,16 +10761,19 @@
           {
             "name": "DurationFloatMaxCombined",
             "value": 5.0,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "DurationFlatFloat",
             "value": 12.0,
+            "unit": "s",
             "descIndex": 2
           },
           {
             "name": "DamagePercentFloat",
             "value": 30.0,
+            "unit": "%",
             "descIndex": 3
           }
         ]
@@ -10099,11 +10792,13 @@
           {
             "name": "DurationFloatMaxCombined",
             "value": 5.0,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "DurationFlatFloat",
             "value": 0.0,
+            "unit": "s",
             "descIndex": 2
           }
         ]
@@ -10122,6 +10817,7 @@
           {
             "name": "DamagePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10133,6 +10829,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10151,6 +10848,7 @@
           {
             "name": "DefenseRegenerationPercentFloat",
             "value": 17.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10162,6 +10860,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10180,6 +10879,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10198,6 +10898,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10209,6 +10910,7 @@
           {
             "name": "HealthPercentInt",
             "value": -10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10227,6 +10929,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10245,6 +10948,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10263,6 +10967,7 @@
           {
             "name": "DamagePercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10281,11 +10986,13 @@
           {
             "name": "CountInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "DurationFlatFloat",
             "value": 1.0,
+            "unit": "s",
             "descIndex": 2
           }
         ]
@@ -10297,6 +11004,7 @@
           {
             "name": "DamagePercentInt",
             "value": 20,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10308,6 +11016,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 50,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10319,6 +11028,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 50,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10337,6 +11047,7 @@
           {
             "name": "CountInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -10355,6 +11066,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10373,6 +11085,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10391,6 +11104,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10402,6 +11116,7 @@
           {
             "name": "HealthPercentInt",
             "value": -10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10420,6 +11135,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 5.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10431,6 +11147,7 @@
           {
             "name": "DurationPercentInt",
             "value": 10,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10449,6 +11166,7 @@
           {
             "name": "DefenseRegenerationPercentFloat",
             "value": 25.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10467,6 +11185,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10485,6 +11204,7 @@
           {
             "name": "DefenseRegenerationPercentFloat",
             "value": 17.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10496,6 +11216,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 8.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10514,16 +11235,19 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "ResourcePercentFloat",
             "value": 25.0,
+            "unit": "%",
             "descIndex": 2
           },
           {
             "name": "TriggeredSkillSelector",
             "value": 0.0,
+            "unit": "",
             "descIndex": 3
           }
         ]
@@ -10542,6 +11266,7 @@
           {
             "name": "TriggeredSkillSelector",
             "value": 3.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -10560,11 +11285,13 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "TriggeredSkillSelector",
             "value": 0.0,
+            "unit": "",
             "descIndex": 2
           }
         ]
@@ -10576,11 +11303,13 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "TriggeredSkillSelector",
             "value": 0.0,
+            "unit": "",
             "descIndex": 2
           }
         ]
@@ -10592,11 +11321,13 @@
           {
             "name": "PossibilityInt",
             "value": 1,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "TriggeredSkillSelector",
             "value": 0.0,
+            "unit": "",
             "descIndex": 2
           }
         ]
@@ -10615,6 +11346,7 @@
           {
             "name": "TriggeredSkillSelector",
             "value": 1.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -10626,6 +11358,7 @@
           {
             "name": "TriggeredSkillSelector",
             "value": 1.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -10637,6 +11370,7 @@
           {
             "name": "TriggeredSkillSelector",
             "value": 1.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -10655,6 +11389,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10666,6 +11401,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 12.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10684,6 +11420,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10695,6 +11432,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 12.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10713,6 +11451,7 @@
           {
             "name": "AttributeFlatInt",
             "value": 25,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -10731,6 +11470,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10742,6 +11482,7 @@
           {
             "name": "DamagePercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10760,6 +11501,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10771,6 +11513,7 @@
           {
             "name": "DamagePercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10789,6 +11532,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 25,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10807,6 +11551,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 25,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10825,6 +11570,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 25,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10843,6 +11589,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 60,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10861,6 +11608,7 @@
           {
             "name": "DurationPercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10879,6 +11627,7 @@
           {
             "name": "ResourceFlatInt",
             "value": 150,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -10897,6 +11646,7 @@
           {
             "name": "RadiusFloat",
             "value": 15.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -10915,6 +11665,7 @@
           {
             "name": "HealingPercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10933,6 +11684,7 @@
           {
             "name": "HealingPercentFloat",
             "value": 25.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10951,6 +11703,7 @@
           {
             "name": "HealingPercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10969,6 +11722,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10980,6 +11734,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -10998,6 +11753,7 @@
           {
             "name": "ArmorPercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11009,6 +11765,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 5,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11027,6 +11784,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 5.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11038,6 +11796,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 5.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11049,6 +11808,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11067,6 +11827,7 @@
           {
             "name": "DefenseRegenerationPercentFloat",
             "value": 25.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11085,6 +11846,7 @@
           {
             "name": "DefenseRegenerationPercentFloat",
             "value": 17.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11096,6 +11858,7 @@
           {
             "name": "DurationPercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11114,6 +11877,7 @@
           {
             "name": "DurationPercentFloat",
             "value": 20.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11132,6 +11896,7 @@
           {
             "name": "DamagePercentFloat",
             "value": 30.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11150,6 +11915,7 @@
           {
             "name": "AttributeFlatInt",
             "value": 25,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -11168,6 +11934,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 5.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11179,6 +11946,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 5.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11190,6 +11958,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11208,6 +11977,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11219,6 +11989,7 @@
           {
             "name": "HealthPercentInt",
             "value": 8,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11237,6 +12008,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11255,6 +12027,7 @@
           {
             "name": "ChanceFlatFloat",
             "value": 5.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -11273,6 +12046,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 20.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11291,6 +12065,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 25,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11309,6 +12084,7 @@
           {
             "name": "ResourcePercentInt",
             "value": 25,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11327,6 +12103,7 @@
           {
             "name": "ConversionRateFloat",
             "value": 0.75,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -11338,6 +12115,7 @@
           {
             "name": "CharacteristicFinalPercentInt",
             "value": -50,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11356,6 +12134,7 @@
           {
             "name": "ConversionRateFloat",
             "value": 0.25,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -11374,6 +12153,7 @@
           {
             "name": "ConversionRateFloat",
             "value": 0.25,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -11392,6 +12172,7 @@
           {
             "name": "ResourcePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11403,6 +12184,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11421,6 +12203,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11439,6 +12222,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11457,6 +12241,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 18,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11475,6 +12260,7 @@
           {
             "name": "SpeedPercentInt",
             "value": 5,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11486,6 +12272,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 5,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11497,6 +12284,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 9,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11515,6 +12303,7 @@
           {
             "name": "AttributeFlatInt",
             "value": 25,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -11533,6 +12322,7 @@
           {
             "name": "ChanceFlatFloat",
             "value": 6.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -11551,6 +12341,7 @@
           {
             "name": "ChanceFlatFloat",
             "value": 3.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -11569,6 +12360,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 20.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11587,6 +12379,7 @@
           {
             "name": "HealthPercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11605,6 +12398,7 @@
           {
             "name": "HealthPercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11623,6 +12417,7 @@
           {
             "name": "HealthPercentInt",
             "value": 15,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11641,6 +12436,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11659,6 +12455,7 @@
           {
             "name": "ResourcePercentFloat",
             "value": 20.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11677,11 +12474,13 @@
           {
             "name": "RadiusFloat",
             "value": 7.5,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "StackCountInt",
             "value": 2,
+            "unit": "",
             "descIndex": 2
           }
         ]
@@ -11700,11 +12499,13 @@
           {
             "name": "RadiusFloat",
             "value": 0.0,
+            "unit": "",
             "descIndex": 1
           },
           {
             "name": "StackCountInt",
             "value": 1,
+            "unit": "",
             "descIndex": 2
           }
         ]
@@ -11723,6 +12524,7 @@
           {
             "name": "ChanceFlatFloat",
             "value": 5.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -11741,6 +12543,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11752,6 +12555,7 @@
           {
             "name": "DamagePercentInt",
             "value": 12,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11770,6 +12574,7 @@
           {
             "name": "ChanceFlatFloat",
             "value": 4.0,
+            "unit": "",
             "descIndex": 1
           }
         ]
@@ -11788,6 +12593,7 @@
           {
             "name": "HealingPercentFloat",
             "value": 10.0,
+            "unit": "%",
             "descIndex": 1
           }
         ]
@@ -11806,6 +12612,7 @@
           {
             "name": "CharacteristicScorePercentInt",
             "value": 40,
+            "unit": "%",
             "descIndex": 1
           }
         ]

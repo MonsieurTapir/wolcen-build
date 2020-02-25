@@ -14,6 +14,7 @@ import { FormsModule } from '@angular/forms';
 import { EimViewerComponent } from './components/eim-viewer/eim-viewer.component';
 import { EimFormatterPipe } from './pipes/eim-formatter.pipe';
 import { EimListEntryComponent } from './components/eim-viewer/eim-list-entry/eim-list-entry.component';
+import { EimValueExtractorPipe, EimUnitExtractorPipe } from './pipes/eim-value-extractor.pipe';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +24,9 @@ import { EimListEntryComponent } from './components/eim-viewer/eim-list-entry/ei
     BuildViewComponent,
     EimViewerComponent,
     EimFormatterPipe,
-    EimListEntryComponent
+    EimListEntryComponent,
+    EimValueExtractorPipe,
+    EimUnitExtractorPipe
   ],
   imports: [
     BrowserModule,

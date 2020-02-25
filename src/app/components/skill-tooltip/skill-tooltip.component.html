@@ -9,7 +9,7 @@
   <div class="tooltip-content">
     <div class="tooltip-eim" *ngFor="let eim of skill.eim">
       <div class="tooltip-eim-desc">
-        {{eim.desc}}
+        {{eim|eimFormatter}}
       </div>
     </div>
   </div>

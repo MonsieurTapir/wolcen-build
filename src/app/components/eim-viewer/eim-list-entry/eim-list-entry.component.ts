@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./eim-list-entry.component.scss']
 })
 export class EimListEntryComponent implements OnInit {
-  @Input() desc;
+  @Input() desc : string | undefined;
   @Input() values : number[];
   @Input() value : number;
   constructor() { }

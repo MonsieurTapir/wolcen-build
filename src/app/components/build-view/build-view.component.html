@@ -1,7 +1,7 @@
 <div class="flex-container-row full">
   <div class="side-panel">
     <div class="title"> Wolcen Build</div>
-    <app-eim-viewer #eim [selectedSkills]="skillsSelected"></app-eim-viewer>
+    <app-eim-viewer #eim [selectedSkills]="skillsSelected" [skills]="skills"></app-eim-viewer>
   </div>
   <app-skill-tree (hasSelected)="addSkill($event)" (hasDeselected)="removeSkill($event)"></app-skill-tree>
 </div>

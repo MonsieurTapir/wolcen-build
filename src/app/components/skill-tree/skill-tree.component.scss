@@ -64,6 +64,10 @@ circle.highlit{
           fill:lighten($var,20%);
         }
       }
+      &.search-result{
+        fill: $spell-highlight;
+        stroke-width: 6px;
+      }
     }
   }
 }

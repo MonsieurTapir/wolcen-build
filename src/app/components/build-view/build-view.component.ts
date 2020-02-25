@@ -10,15 +10,14 @@ import { EimViewerComponent } from '../eim-viewer/eim-viewer.component';
 })
 export class BuildViewComponent implements OnInit {
   skillsSelected : string[] = [];
-  skills;
-
-  @ViewChild('eim') eimViewer : EimViewerComponent;
+  skills : {};
 
   private subscriptions : Subscription[] = [];
   constructor(private skillService : SkillTreeService) { }
   addSkill(skill : string){
-    this.skillsSelected.push(skill);
-    this.eimViewer.addEims(this.skills[skill]);
+    var newArr = []
+    newArr.push(this.skillsSelected,skill);
+    this.skillsSelected=newArr;
   }
 
   removeSkill(skill : string){
@@ -33,7 +32,6 @@ export class BuildViewComponent implements OnInit {
       this.skillService.getSkills().subscribe(
         (value) =>{
           this.skills = value;
-          this.eimViewer.initSkills(this.skills);
         }
       )
     )

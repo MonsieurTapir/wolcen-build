@@ -1,4 +1,3 @@
- <div *ngFor="let eim of eimsKeys;">
-   <app-eim-list-entry *ngIf="eimsValues[eim][0]>0" [value]="eimsValues[eim][0]" [values]="eimsValues[eim]" [desc]="eimsDesc[eim]|eimFormatter:eimsValues[eim]"></app-eim-list-entry>
+ <div *ngFor="let eim of displayed;">
+ {{eim}}
  </div>
-  <div *ngFor="let skill of selectedSkills">{{skill}}</div>

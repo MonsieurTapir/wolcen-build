@@ -1,47 +1,72 @@
-import { Component, OnInit, Input, AfterViewInit, OnChanges } from '@angular/core';
+import { Component, OnInit, Input, AfterViewInit, OnChanges, SimpleChanges } from '@angular/core';
 import { PassiveTreeNode } from 'src/app/models/skill-tree/passive-tree-node';
+import { SkillEIM } from 'src/app/models/skill-tree/skill-eim';
+import { EimFormatterPipe } from 'src/app/pipes/eim-formatter.pipe';
 
 @Component({
   selector: 'app-eim-viewer',
   templateUrl: './eim-viewer.component.html',
   styleUrls: ['./eim-viewer.component.scss']
 })
-export class EimViewerComponent implements OnChanges {
+export class EimViewerComponent implements OnChanges{
 
-  @Input() selectedSkills;
-  private skills;
-  eimsDesc = {};
-  eimsValues = {};
+  @Input() selectedSkills : [];
+  @Input()  skills:{};
+  displayed = [];
+  eims = new Map<string, SkillEIM>();
+  eimUsage = new Map<string,number>();
   eimsKeys = [];
+  formatterPipe = new EimFormatterPipe();
   constructor() { }
 
-  ngOnChanges():void{
-
+  ngOnChanges(changes:SimpleChanges):void{
+    if(changes['selectedSkills'] && changes['selectedSkills'].previousValue){
+      if(changes['selectedSkills'].previousValue.length > changes['selectedSkills'].currentValue.length){
+        var removed : string = changes['selectedSkills'].previousValue.slice(-1);
+        this.removeEims(this.skills[removed])
+      }else{
+        var added : string = changes['selectedSkills'].currentValue.slice(-1);
+        this.addEims(this.skills[added])
+      }
+      this.renderEims();
+    }
+    if(changes['skills'] && this.skills){
+      this.initEims()
+    }
   }
-
-  addEims( skill : PassiveTreeNode){
-    skill.eim.forEach((eim)=>{
-      eim.semantics.forEach((element,index) => {
-        this.eimsValues[eim.name][index] += element.value;
-        console.log(this.eimsValues[eim.name][index]);
-      });
+  renderEims(){
+    this.displayed = [];
+    this.eimsKeys.forEach((it) =>{
+      if(this.eimUsage[it]>0){
+        this.displayed.push(this.formatterPipe.transform(this.eims[it]));
+      }
     })
   }
-  initSkills(skills: {}){
-    this.skills = skills;
-    Object.entries(this.skills).forEach((keyval)=>{
-      let skill = keyval[1] as PassiveTreeNode;
-      skill.eim.forEach((it)=>{
-        this.eimsValues[it.name] = new Array<number>(it.semantics.length)
-        this.eimsDesc[it.name] = it.desc
-        if(this.eimsKeys.indexOf(it.name)<0){
-          this.eimsKeys.push(it.name)
-        }
-        it.semantics.forEach((sem,index)=>{
-          this.eimsValues[it.name][index] = 0;
-        })
+  initEims(){
+    Object.keys(this.skills).forEach((key)=>{
+      const skill = this.skills[key] as PassiveTreeNode;
+      skill.eim.forEach((eim : SkillEIM)=>{
+      if(this.eimsKeys.indexOf(eim.name)<0)
+        this.eimsKeys.push(eim.name);
+      this.eimUsage[eim.name] = 0;
+      this.eims[eim.name] = new SkillEIM(eim.desc,eim.name,eim.semantics);
       })
     })
   }
-
+  addEims( skill : PassiveTreeNode){
+    skill.eim.forEach((eim)=>{
+      eim.semantics.forEach((element,index) => {
+        this.eims[eim.name].semantics[index]+= element.value;
+        this.eimUsage[eim.name]+=1;
+      });
+    })
+  }
+  removeEims( skill : PassiveTreeNode){
+    skill.eim.forEach((eim)=>{
+      eim.semantics.forEach((element,index) => {
+        this.eims[eim.name].semantics[index]-= element.value;
+        this.eimUsage[eim.name]-=1;
+      });
+    })
+  }
 }
