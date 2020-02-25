@@ -2,6 +2,7 @@ import { Component, OnInit, Input, AfterViewInit, OnChanges, SimpleChanges } fro
 import { PassiveTreeNode } from 'src/app/models/skill-tree/passive-tree-node';
 import { SkillEIM } from 'src/app/models/skill-tree/skill-eim';
 import { EimFormatterPipe } from 'src/app/pipes/eim-formatter.pipe';
+import { EIMSemantic } from 'src/app/models/skill-tree/eimsemantic';
 
 @Component({
   selector: 'app-eim-viewer',
@@ -12,17 +13,17 @@ export class EimViewerComponent implements OnChanges{
 
   @Input() selectedSkills : [];
   @Input()  skills:{};
-  displayed = [];
+  displayed  = [];
   eims = new Map<string, SkillEIM>();
   eimUsage = new Map<string,number>();
   eimsKeys = [];
-  formatterPipe = new EimFormatterPipe();
+  eimFormatter = new EimFormatterPipe();
   constructor() { }
 
   ngOnChanges(changes:SimpleChanges):void{
     if(changes['selectedSkills'] && changes['selectedSkills'].previousValue){
       if(changes['selectedSkills'].previousValue.length > changes['selectedSkills'].currentValue.length){
-        var removed : string = changes['selectedSkills'].previousValue.slice(-1);
+        var removed : string =  changes['selectedSkills'].previousValue.filter(x=>!changes['selectedSkills'].currentValue.includes(x));
         this.removeEims(this.skills[removed])
       }else{
         var added : string = changes['selectedSkills'].currentValue.slice(-1);
@@ -35,13 +36,20 @@ export class EimViewerComponent implements OnChanges{
     }
   }
   renderEims(){
-    this.displayed = [];
+    this.displayed = new Array();
     this.eimsKeys.forEach((it) =>{
       if(this.eimUsage[it]>0){
-        this.displayed.push(this.formatterPipe.transform(this.eims[it]));
+        this.displayed.push(this.eimFormatter.transform(this.eims[it]));
       }
     })
   }
+  isUsed(eim : string){
+    return this.eimUsage[eim]>0;
+  }
+  trackByUsage(index, item: string){
+    return item
+  }
+
   initEims(){
     Object.keys(this.skills).forEach((key)=>{
       const skill = this.skills[key] as PassiveTreeNode;
@@ -56,7 +64,8 @@ export class EimViewerComponent implements OnChanges{
   addEims( skill : PassiveTreeNode){
     skill.eim.forEach((eim)=>{
       eim.semantics.forEach((element,index) => {
-        this.eims[eim.name].semantics[index]+= element.value;
+        this.eims[eim.name].semantics[index].value += element.value;
+        console.log(this.eims[eim.name].semantics[index].value)
         this.eimUsage[eim.name]+=1;
       });
     })
@@ -64,7 +73,7 @@ export class EimViewerComponent implements OnChanges{
   removeEims( skill : PassiveTreeNode){
     skill.eim.forEach((eim)=>{
       eim.semantics.forEach((element,index) => {
-        this.eims[eim.name].semantics[index]-= element.value;
+        this.eims[eim.name].semantics[index].value -= element.value;
         this.eimUsage[eim.name]-=1;
       });
     })

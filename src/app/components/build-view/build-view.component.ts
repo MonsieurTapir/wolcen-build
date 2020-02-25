@@ -15,17 +15,20 @@ export class BuildViewComponent implements OnInit {
   private subscriptions : Subscription[] = [];
   constructor(private skillService : SkillTreeService) { }
   addSkill(skill : string){
-    var newArr = []
-    newArr.push(this.skillsSelected,skill);
+    var newArr = [].concat(this.skillsSelected)
+    newArr.push(skill);
     this.skillsSelected=newArr;
   }
 
   removeSkill(skill : string){
-    this.skillsSelected.forEach((it,i) =>{
-      if(it == skill)
-        this.skillsSelected.splice(i,1);
+
+    var newArr = [].concat(this.skillsSelected)
+    newArr.forEach((it,i) =>{
+      if(it === skill)
+        newArr.splice(i,1);
         return;
     })
+    this.skillsSelected=newArr;
   }
   ngOnInit(): void {
     this.subscriptions.push(
